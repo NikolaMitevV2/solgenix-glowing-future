@@ -25,7 +25,7 @@ const HowItWorksSection = () => {
           <h2 className="text-4xl lg:text-5xl font-light tracking-tight mb-4 text-darkslategray">
             How it works
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-xl max-w-2xl mx-auto text-gray-900">
             Our streamlined three-step process ensures a seamless solar installation experience
           </p>
         </div>

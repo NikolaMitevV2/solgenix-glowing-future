@@ -32,7 +32,7 @@ const FeaturedSection = () => {
             {companies.map((company, index) => <div key={company.name} className="flex items-center justify-center h-16 px-8 glassmorphic rounded-lg hover:opacity-100 transition-all duration-300 bg-white/50 backdrop-blur-sm border border-gray-200/50" style={{
             animationDelay: `${index * 0.1}s`
           }}>
-                <span className="text-2xl font-semibold text-darkslategray">
+                <span className="text-2xl font-semibold text-zinc-950">
                   {company.logo}
                 </span>
               </div>)}
