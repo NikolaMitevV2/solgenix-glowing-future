@@ -43,7 +43,7 @@ const Navigation = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <img 
-                src="/lovable-uploads/e0e8a5be-8bfc-425f-b104-04ae1977f1c2.png" 
+                src="/lovable-uploads/f32cbed0-f5ec-449d-a12c-24e6bfce96bd.png" 
                 alt="Solgenix Logo" 
                 className="h-8 w-8"
               />

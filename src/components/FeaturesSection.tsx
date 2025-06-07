@@ -29,7 +29,7 @@ const FeaturesSection = () => {
     <section id="features" className="py-20 bg-gradient-to-br from-gray-50 to-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 scroll-reveal">
-          <h2 className="text-4xl lg:text-5xl font-light tracking-tight mb-4">
+          <h2 className="text-4xl lg:text-5xl font-light tracking-tight mb-4 text-darkslategray">
             Premium features
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -46,11 +46,11 @@ const FeaturesSection = () => {
             >
               <div className="flex items-start space-x-6">
                 <div className="w-16 h-16 bg-solgenix-gradient rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                  <i className={`${feature.icon} ph-light text-2xl text-white`}></i>
+                  <i className={`${feature.icon} ph-light text-2xl text-darkslategray`}></i>
                 </div>
                 
                 <div className="flex-1">
-                  <h3 className="text-xl font-semibold mb-3">{feature.title}</h3>
+                  <h3 className="text-xl font-semibold mb-3 text-darkslategray">{feature.title}</h3>
                   <p className="text-muted-foreground leading-relaxed">
                     {feature.description}
                   </p>

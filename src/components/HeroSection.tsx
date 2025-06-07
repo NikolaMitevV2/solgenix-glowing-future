@@ -60,12 +60,12 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Right Content - Mockup Image */}
+          {/* Right Content - Logo Image */}
           <div className="relative animate-fade-in-up">
             <div className="relative z-10">
               <img
-                src="/lovable-uploads/f32cbed0-f5ec-449d-a12c-24e6bfce96bd.png"
-                alt="Solar Panel Installation Mockup"
+                src="/lovable-uploads/e0e8a5be-8bfc-425f-b104-04ae1977f1c2.png"
+                alt="Solgenix Logo"
                 className="w-full h-auto rounded-2xl shadow-2xl glassmorphic"
               />
             </div>

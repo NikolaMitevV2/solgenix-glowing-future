@@ -30,7 +30,7 @@ const HowItWorksSection = () => {
     <section id="how-it-works" className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 scroll-reveal">
-          <h2 className="text-4xl lg:text-5xl font-light tracking-tight mb-4">
+          <h2 className="text-4xl lg:text-5xl font-light tracking-tight mb-4 text-darkslategray">
             How it works
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -51,7 +51,7 @@ const HowItWorksSection = () => {
                   alt={step.title}
                   className="w-full h-64 lg:h-80 object-cover rounded-2xl shadow-lg"
                 />
-                <div className="absolute top-6 left-6 w-12 h-12 bg-solgenix-500 rounded-full flex items-center justify-center text-white font-semibold text-lg">
+                <div className="absolute top-6 left-6 w-12 h-12 bg-solgenix-500 rounded-full flex items-center justify-center text-darkslategray font-semibold text-lg">
                   {step.number}
                 </div>
               </div>
@@ -59,7 +59,7 @@ const HowItWorksSection = () => {
               <div className="space-y-4">
                 <div className="flex items-center justify-center space-x-3 mb-4">
                   <i className={`${step.icon} ph-light text-2xl text-solgenix-500`}></i>
-                  <h3 className="text-2xl font-semibold">{step.title}</h3>
+                  <h3 className="text-2xl font-semibold text-darkslategray">{step.title}</h3>
                 </div>
                 <p className="text-muted-foreground leading-relaxed text-lg max-w-sm mx-auto">
                   {step.description}
