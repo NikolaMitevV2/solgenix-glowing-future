@@ -11,10 +11,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section id="hero" className="min-h-screen relative overflow-hidden">
-      {/* Background Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-solgenix-50 via-white to-solgenix-100" />
-      
+    <section id="hero" className="min-h-screen relative overflow-hidden bg-white">
       {/* Decorative Elements */}
       <div className="absolute top-20 left-10 w-32 h-32 bg-solgenix-200/30 rounded-full blur-xl" />
       <div className="absolute bottom-20 right-10 w-48 h-48 bg-solgenix-300/20 rounded-full blur-2xl" />
