@@ -21,7 +21,7 @@ const HeroSection = () => {
           {/* Left Content */}
           <div className="space-y-8 animate-fade-in-up">
             <div className="space-y-6">
-              <h1 className="text-5xl lg:text-7xl font-light tracking-tight leading-tight">
+              <h1 className="text-5xl lg:text-7xl font-light tracking-tight leading-tight text-darkslategray">
                 Build your
                 <span className="block bg-solgenix-gradient bg-clip-text text-transparent">
                   solar future.
@@ -36,20 +36,11 @@ const HeroSection = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
                 size="lg"
-                className="neumorphic text-lg px-8 py-4 bg-solgenix-gradient hover:bg-solgenix-600 text-white border-0"
+                className="neumorphic text-lg px-8 py-4 bg-solgenix-gradient hover:bg-solgenix-600 text-darkslategray border-0"
                 onClick={() => scrollToSection('#pricing')}
               >
                 <i className="ph-light ph-lightning mr-2 text-xl"></i>
                 Get Started
-              </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                className="text-lg px-8 py-4 glassmorphic border-solgenix-200"
-                onClick={() => scrollToSection('#how-it-works')}
-              >
-                <i className="ph-light ph-play mr-2 text-xl"></i>
-                Learn More
               </Button>
             </div>
 
@@ -73,8 +64,8 @@ const HeroSection = () => {
           <div className="relative animate-fade-in-up">
             <div className="relative z-10">
               <img
-                src="/lovable-uploads/faed0926-8275-468c-ac5c-53da095ea449.png"
-                alt="Solgenix Dashboard Interface"
+                src="/lovable-uploads/f32cbed0-f5ec-449d-a12c-24e6bfce96bd.png"
+                alt="Solar Panel Installation Mockup"
                 className="w-full h-auto rounded-2xl shadow-2xl glassmorphic"
               />
             </div>

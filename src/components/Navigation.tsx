@@ -41,8 +41,15 @@ const Navigation = () => {
       }`}>
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <div className="text-2xl font-semibold tracking-tight bg-solgenix-gradient bg-clip-text text-transparent">
-              Solgenix
+            <div className="flex items-center space-x-3">
+              <img 
+                src="/lovable-uploads/e0e8a5be-8bfc-425f-b104-04ae1977f1c2.png" 
+                alt="Solgenix Logo" 
+                className="h-8 w-8"
+              />
+              <div className="text-2xl font-semibold tracking-tight bg-solgenix-gradient bg-clip-text text-transparent">
+                Solgenix
+              </div>
             </div>
 
             {/* Desktop Navigation */}
