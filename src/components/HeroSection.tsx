@@ -17,7 +17,7 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-6 py-20 flex items-center min-h-screen">
         <div className="grid lg:grid-cols-2 gap-12 items-center w-full">
           {/* Left Content */}
-          <div className="space-y-8 animate-fade-in-up">
+          <div className="space-y-8 animate-fade-in-up px-[50px]">
             <div className="space-y-6">
               <h1 className="text-5xl lg:text-7xl font-light tracking-tight leading-tight text-darkslategray">
                 Build your
