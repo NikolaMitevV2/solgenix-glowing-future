@@ -26,7 +26,7 @@ const FAQSection = () => {
           <h2 className="text-4xl lg:text-5xl font-light tracking-tight mb-4">
             Frequently asked questions
           </h2>
-          <p className="text-xl max-w-2xl mx-auto text-gray-700">
+          <p className="text-xl max-w-2xl mx-auto text-darkslategray">
             Get answers to common questions about solar panel installation and our services
           </p>
         </div>
@@ -41,7 +41,7 @@ const FAQSection = () => {
                 
                 <div className={`overflow-hidden transition-all duration-300 ${openFAQ === index ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
                   <div className="p-6 pt-0">
-                    <p className="leading-relaxed text-gray-900">
+                    <p className="leading-relaxed text-slate-900">
                       {faq.answer}
                     </p>
                   </div>

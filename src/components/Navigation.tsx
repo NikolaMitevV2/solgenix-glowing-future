@@ -69,7 +69,7 @@ const Navigation = () => {
                   <Link
                     key={item.label}
                     to={item.href}
-                    className="text-foreground/80 hover:text-foreground transition-colors font-light"
+                    className="text-foreground/80 hover:text-foreground transition-colors font-bold"
                   >
                     {item.label}
                   </Link>
@@ -77,7 +77,7 @@ const Navigation = () => {
                   <button
                     key={item.label}
                     onClick={() => handleNavClick(item)}
-                    className="text-foreground/80 hover:text-foreground transition-colors font-light"
+                    className="text-foreground/80 hover:text-foreground transition-colors font-bold"
                   >
                     {item.label}
                   </button>

@@ -23,7 +23,7 @@ const FeaturesSection = () => {
           <h2 className="text-4xl lg:text-5xl font-light tracking-tight mb-4 text-darkslategray">
             Premium features
           </h2>
-          <p className="text-xl max-w-2xl mx-auto text-gray-900">
+          <p className="text-xl max-w-2xl mx-auto text-slate-700">
             Advanced technology and superior craftsmanship in every installation
           </p>
         </div>
@@ -39,7 +39,7 @@ const FeaturesSection = () => {
                 
                 <div className="flex-1">
                   <h3 className="text-xl font-semibold mb-3 text-darkslategray">{feature.title}</h3>
-                  <p className="leading-relaxed text-gray-900">
+                  <p className="leading-relaxed text-slate-800">
                     {feature.description}
                   </p>
                 </div>

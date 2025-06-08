@@ -81,7 +81,7 @@ const Footer = () => {
         <div className="border-t border-white/20 pt-8">
           <div className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
             <div className="opacity-80">
-              © 2024 Solgenix. All rights reserved.
+              © 2025 Solgenix. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="opacity-80 hover:opacity-100 transition-opacity">Privacy Policy</a>

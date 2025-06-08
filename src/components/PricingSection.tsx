@@ -29,13 +29,13 @@ const PricingSection = () => {
           <h2 className="text-4xl lg:text-5xl font-light tracking-tight mb-4">
             Choose your solar plan
           </h2>
-          <p className="text-xl max-w-2xl mx-auto text-gray-900">
+          <p className="text-xl max-w-2xl mx-auto text-darkslategray">
             Flexible options designed to meet your energy needs and budget
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          {plans.map((plan, index) => <div key={plan.name} className={`scroll-reveal glassmorphic rounded-2xl p-8 relative hover:scale-105 transition-all duration-300 ${plan.recommended ? 'ring-2 ring-solgenix-500 scale-105' : ''}`} style={{
+        <div className="grid lg:grid-cols-3 gap-8 max-w-6xl mx-auto ">
+          {plans.map((plan, index) => <div key={plan.name} className={`scroll-reveal  glassmorphic rounded-2xl p-8 relative hover:scale-105 transition-all duration-300 ${plan.recommended ? 'ring-2 ring-solgenix-500 scale-105' : ' border-1 border-darkslategray'}`} style={{
           animationDelay: `${index * 0.1}s`
         }}>
               {plan.recommended && <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
@@ -44,7 +44,7 @@ const PricingSection = () => {
                   </div>
                 </div>}
 
-              <div className="text-center mb-8">
+              <div className="text-center mb-8 ">
                 <h3 className="text-2xl font-semibold mb-2">{plan.name}</h3>
                 <div className="text-4xl font-light mb-2">
                   {plan.price}
