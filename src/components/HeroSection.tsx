@@ -21,7 +21,7 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-6 py-20 flex items-center min-h-screen">
         <div className="grid lg:grid-cols-2 gap-12 items-center w-full">
           {/* Left Content */}
-          <div className="space-y-8 animate-fade-in-up px-[50px]">
+          <div className="space-y-8 animate-fade-in-up px-0 md:px-[50px]">
             <div className="space-y-6">
               <h1 className="text-5xl lg:text-7xl font-light tracking-tight leading-tight text-darkslategray">
                 Build your
@@ -34,7 +34,6 @@ const HeroSection = () => {
                 Clean energy, cutting-edge technology, exceptional service.
               </p>
             </div>
-
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
                 size="lg"
@@ -45,7 +44,6 @@ const HeroSection = () => {
                 Get Started
               </Button>
             </div>
-
             <div className="flex items-center space-x-8 pt-8">
               <div className="text-center">
                 <div className="text-3xl font-semibold text-solgenix-600">
